@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
+
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #191a1f;
+  }
+
+  .uwu{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #3e4352;
+    color: black;
+    font-size: 1.4rem;
+    margin: 10px auto;
+    padding-top: 17px;
+    
+  }
+
+  .uwu:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+
+  .header {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  img {
+    animation: ease 20s;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  img:hover {
+    transform: scale(102%);
+  }
+
+  p {
+    margin: 0;
+    color: #9D68C0;
+    font-size: .9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .gambar {
+    width: 95%;
+    height: 200vh;
+    margin: 10px auto;
+  }
+
+  h1 {
+    background: linear-gradient(90deg, #9D68C0, #FC7A7D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+  }
+</style>
+
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Galery Kawaii Kingdom</h1>
+    <p>Ini adalah hasil foto2 selama awal event jejepangan</p>
+    <a href="#gambar" class="uwu">Here</a>
+  </div>
+
+  <!-- Photo Grid -->
+  <div class="gambar" id="gambar">
+    <div class="row">
+      <div class="column">
+        <a href=""><img src="1.png" alt=""></a>
+        <a href=""><img src="2.jpeg" alt=""></a>
+        <a href=""><img src="3.jpeg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/4c/c5/a8/4cc5a8b685aa81b080947067851b4874.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/17/77/d2/1777d21094bf7afd881bb0147f4c61ad.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/3f/a5/ca/3fa5ca4a2db8d2f55ba4a87de94cf7d9.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/7a/ce/59/7ace5956f770514f0249ec1633665116.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/5a/35/2e/5a352efac0924d151f33dfb9c37f8eb1.jpg" alt=""></a>
+      </div>
+
+      <div class="column">
+        <a href=""><img src="4.jpeg" alt=""></a>
+        <a href=""><img src="6.jpeg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/c1/98/4c/c1984ca4707f954f0d5d2b4a198fe2fe.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/67/57/e7/6757e751deeb155090aa0ef68be96d56.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/1a/01/46/1a014627fdccf6186972529b2b2867eb.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/8a/bf/04/8abf04d920a1179cbc27a03a2e314e60.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/c3/7c/ad/c37cadc8323ad2b59eaacd70fe3ca71b.jpg" alt=""></a>
+      </div>
+
+      <div class="column">
+        <a href=""><img src="https://i.pinimg.com/564x/17/77/d2/1777d21094bf7afd881bb0147f4c61ad.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/12/c2/8a/12c28a35077184dd2903406bfc2e3078.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/6b/4d/a9/6b4da9613b46b45826e5c639bd3a680f.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/236x/76/56/87/765687a15650e08b89c343be0103031f.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/d9/65/84/d9658443c7d301108f86928c227c4bba.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/af/48/f8/af48f828930b54df79e92e0e4e8d373c.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/59/50/99/59509988c2e855f7ab9384b973524da6.jpg" alt=""></a>
+      </div>
+
+      <div class="column">
+        <a href=""><img src="https://i.pinimg.com/564x/4c/c5/a8/4cc5a8b685aa81b080947067851b4874.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/03/90/e2/0390e2d009a9b449df8172fc1a8418f9.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/750x/32/70/73/327073efc9d4ccdb1833cc1ccceee75a.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/cc/a3/1e/cca31e7903e5657de7fbb02bd9d18145.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/5a/35/2e/5a352efac0924d151f33dfb9c37f8eb1.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/91/2a/40/912a40dfdaf111e9d476479454ea36c7.jpg" alt=""></a>
+        <a href=""><img src="https://i.pinimg.com/564x/e4/00/cd/e400cd86fa29dd2146b058c30d6df616.jpg" alt=""></a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
